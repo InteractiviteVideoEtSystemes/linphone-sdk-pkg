@@ -475,7 +475,7 @@ LICENSE
     }
   s.author       = "employees@belledonne-communications.com"
   s.platform     = :osx, "10.9"
-  s.source       = { :http => "https://raw.githubusercontent.com/InteractiviteVideoEtSystemes/linphone-sdk-pkg/master/linphone-sdk-4.2-25-g42326b4.zip" }
+  s.source       = { :http => "https://raw.githubusercontent.com/InteractiviteVideoEtSystemes/linphone-sdk-pkg/master/linphone-sdk-4.2-29-gca613db.zip" }
   s.vendored_frameworks = "linphone-sdk/desktop/Frameworks/**"
 
 end
