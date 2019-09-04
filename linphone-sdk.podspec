@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "linphone-sdk"
-  s.version      = "4.2-29-gca613db"
+  s.version      = "4.2-31-g34abcaa"
   s.summary      = "This is the linphone SDK, a free (GPL) video voip library based on the SIP protocol"
   s.description  = <<-PODSPEC_DESC
 Enabled features:
