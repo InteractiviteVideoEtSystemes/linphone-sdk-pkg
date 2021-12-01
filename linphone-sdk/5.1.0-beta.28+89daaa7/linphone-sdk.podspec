@@ -675,11 +675,11 @@ LICENSE
 
   s.subspec 'basic-frameworks' do |sp|
     sp.dependency 'linphone-sdk/app-extension'
-    sp.vendored_frameworks = "linphone-sdk/desktop/Frameworks/{}"
+    sp.vendored_frameworks = "linphone-sdk/desktop/Frameworks/{bctoolbox.framework,belcard.framework,belle-sip.framework,belr.framework,lime.framework,linphone.framework,mediastreamer2.framework,ortp.framework}"
   end
 
   s.subspec 'app-extension' do |sp|
-    sp.vendored_frameworks = "linphone-sdk/desktop/Frameworks/{}"
+    sp.vendored_frameworks = "linphone-sdk/desktop/Frameworks/{bctoolbox.framework,belcard.framework,belle-sip.framework,belr.framework,lime.framework,linphone.framework,mediastreamer2.framework,ortp.framework}"
   end
 
 end
