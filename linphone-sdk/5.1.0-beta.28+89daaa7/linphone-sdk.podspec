@@ -672,11 +672,14 @@ LICENSE
   s.subspec 'all-frameworks' do |sp|
     sp.vendored_frameworks = "linphone-sdk/desktop/Frameworks/**"
   end
-  
-#Declare frameworks that are safe for app extension use
-  s.subspec 'app-extension' do |sp|
-    sp.vendored_frameworks = "linphone-sdk/desktop/Frameworks/{bctoolbox.framework,belcard.framework,belle-sip.framework,belr.framework,lime.framework,linphone.framework,mediastreamer2.framework,ortp.framework}"
+
+  s.subspec 'basic-frameworks' do |sp|
+    sp.dependency 'linphone-sdk/app-extension'
+    sp.vendored_frameworks = "linphone-sdk/desktop/Frameworks/{}"
   end
 
+  s.subspec 'app-extension' do |sp|
+    sp.vendored_frameworks = "linphone-sdk/desktop/Frameworks/{}"
+  end
 
 end
