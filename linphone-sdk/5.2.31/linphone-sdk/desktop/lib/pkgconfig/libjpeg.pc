@@ -1,0 +1,10 @@
+prefix=/Users/jenkins/Build/workspace/desktop-cli/linsdkmac/label/mac-builder-2/build-desktop/linphone-sdk/mac-arm64
+exec_prefix=/Users/jenkins/Build/workspace/desktop-cli/linsdkmac/label/mac-builder-2/build-desktop/linphone-sdk/mac-arm64
+libdir=/Users/jenkins/Build/workspace/desktop-cli/linsdkmac/label/mac-builder-2/build-desktop/linphone-sdk/mac-arm64/lib
+includedir=/Users/jenkins/Build/workspace/desktop-cli/linsdkmac/label/mac-builder-2/build-desktop/linphone-sdk/mac-arm64/include
+
+Name: libjpeg
+Description: A SIMD-accelerated JPEG codec that provides the libjpeg API
+Version: 2.0.5
+Libs: -L${libdir} -ljpeg
+Cflags: -I${includedir}

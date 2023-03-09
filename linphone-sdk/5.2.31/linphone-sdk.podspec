@@ -31,6 +31,7 @@ Enabled features:
  * VPX, VPX (VP8) video encoding/decoding support.
  * LibYUV, Enable LibYUV support
  * FlexiAPI, Enable the FlexiAPI support in Liblinphone.
+ * Swift wrapper, Build the Swift wrapper sources from Liblinphone.
  * LIME X3DH, Enable Linphone IM Encryption version 2 support in  Liblinphone.
  * Daemon, Enable Linphone Daemon.
  * VCARD, Enable vCard 4 support in Linphone and Liblinphone.

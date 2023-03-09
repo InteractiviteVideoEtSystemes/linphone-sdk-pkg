@@ -1,0 +1,15 @@
+# libspeex pkg-config source file
+
+prefix=/Users/jenkins/Build/workspace/desktop-cli/linsdkmac/label/mac-builder-2/build-desktop/linphone-sdk/mac-arm64
+exec_prefix=/Users/jenkins/Build/workspace/desktop-cli/linsdkmac/label/mac-builder-2/build-desktop/linphone-sdk/mac-arm64/bin
+libdir=/Users/jenkins/Build/workspace/desktop-cli/linsdkmac/label/mac-builder-2/build-desktop/linphone-sdk/mac-arm64/lib
+includedir=/Users/jenkins/Build/workspace/desktop-cli/linsdkmac/label/mac-builder-2/build-desktop/linphone-sdk/mac-arm64/include
+
+Name: speex
+Description: Speex is an audio codec tuned for speech
+Version: 1.2rc1
+Requires:
+Conflicts:
+Libs: -L/Users/jenkins/Build/workspace/desktop-cli/linsdkmac/label/mac-builder-2/build-desktop/linphone-sdk/mac-arm64/lib -lspeex
+Libs.private: -lm
+Cflags: -I/Users/jenkins/Build/workspace/desktop-cli/linsdkmac/label/mac-builder-2/build-desktop/linphone-sdk/mac-arm64/include

@@ -1,0 +1,10 @@
+# This is a comment
+prefix=/Users/jenkins/Build/workspace/desktop-cli/linsdkmac/label/mac-builder-2/build-desktop/linphone-sdk/mac-arm64
+exec_prefix=/Users/jenkins/Build/workspace/desktop-cli/linsdkmac/label/mac-builder-2/build-desktop/linphone-sdk/mac-arm64
+
+Name:  bctoolbox
+Description: A common set of tools used by Belledonne Communication's softwares
+Version: 5.2.0
+Libs: -L/Users/jenkins/Build/workspace/desktop-cli/linsdkmac/label/mac-builder-2/build-desktop/linphone-sdk/mac-arm64/lib -lbctoolbox
+Libs.private: 
+Cflags: -I/Users/jenkins/Build/workspace/desktop-cli/linsdkmac/label/mac-builder-2/build-desktop/linphone-sdk/mac-arm64/include

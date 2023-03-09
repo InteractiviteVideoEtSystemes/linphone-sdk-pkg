@@ -1,0 +1,14 @@
+# pkg-config file from libvpx v1.9.0-17-g894d0f3b1
+prefix=/Users/jenkins/Build/workspace/desktop-cli/linsdkmac/label/mac-builder-2/build-desktop/linphone-sdk/mac-arm64
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: vpx
+Description: WebM Project VPx codec implementation
+Version: 1.9.0
+Requires:
+Conflicts:
+Libs: -L${libdir} -lvpx -lm
+Libs.private: -lm -lpthread
+Cflags: -I${includedir}

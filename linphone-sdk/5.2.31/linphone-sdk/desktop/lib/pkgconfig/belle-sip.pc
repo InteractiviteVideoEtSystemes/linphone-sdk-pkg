@@ -1,0 +1,13 @@
+# This is a comment
+prefix=/Users/jenkins/Build/workspace/desktop-cli/linsdkmac/label/mac-builder-2/build-desktop/linphone-sdk/mac-arm64
+exec_prefix=/Users/jenkins/Build/workspace/desktop-cli/linsdkmac/label/mac-builder-2/build-desktop/linphone-sdk/mac-arm64/bin
+includedir=/Users/jenkins/Build/workspace/desktop-cli/linsdkmac/label/mac-builder-2/build-desktop/linphone-sdk/mac-arm64/include
+
+Name: belle-sip 
+Description: A c based implementation of the SIP (RFC 3261)  telephony protocol 
+Requires: bctoolbox
+Requires.private:  
+Version: 5.2.0
+Libs: -L/Users/jenkins/Build/workspace/desktop-cli/linsdkmac/label/mac-builder-2/build-desktop/linphone-sdk/mac-arm64/lib -lbellesip
+Libs.private: 
+Cflags: -I/Users/jenkins/Build/workspace/desktop-cli/linsdkmac/label/mac-builder-2/build-desktop/linphone-sdk/mac-arm64/include 
