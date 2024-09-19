@@ -698,7 +698,7 @@ LICENSE
     }
   s.author       = { 'Belledonne Communications SARL' => 'linphone-desktop@belledonne-communications.com' }
   s.platform     = :osx, "10.14"
-  s.source       = { :http => "https://raw.githubusercontent.com/InteractiviteVideoEtSystemes/linphone-sdk-pkg/master/linphone-sdk/5.3.85/linphone-sdk-macos-5.3.85.zip" }
+  s.source       = { :http => "https://www.linphone.org/releases/macosx/sdk/linphone-sdk-macos-5.3.85.zip" }
   s.vendored_frameworks = "linphone-sdk/macos/Frameworks/**"
   s.pod_target_xcconfig = { 'VALID_ARCHS' => "arm64 x86_64" }
   s.source_files = "linphone-sdk/macos/share/linphonesw/*.swift"
